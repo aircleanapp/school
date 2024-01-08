@@ -412,28 +412,26 @@ In today’s society, many political, economical and social figureheads display 
           <div class="col-lg-4 col-md-6 single-footer-widget">
             <h4>Newsletter</h4>
             <p>Only occasional news about our work</p>
-            <div class="form-wrap" id="mc_embed_signup">
+            <div class="form-wrap" >
+                <script type="text/javascript">var submitted=false;</script>
+                <iframe name="hidden_iframe" id="hidden_iframe" style="display:none" onload="if(submitted){$('#fthx').html('<p>   Thank you for subscribing !</p>' ).removeClass('hid');$('#femail').val('');$('#fbutton').addClass('hid');}"></iframe>
               <form
-                target="_blank"
-                action="#"
-                method="get"
-                class="form-inline"
-              >
+                target="hidden_iframe" action="https://docs.google.com/forms/d/e/1FAIpQLScTGwUFFJ1QeljzWRIytdHF_SxFdpcYJrQ0HvlcxUYOGsqi1w/formResponse" method="POST" id="mG61Hd" class="form-inline" onsubmit="submitted=true;">
+              
                 <input
-                  class="form-control"
-                  name="EMAIL"
+                  id="femail"
                   placeholder="Your Email Address"
-                  pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"        
                   onfocus="this.placeholder = ''"
                   onblur="this.placeholder = 'Your Email Address'"
-                  required=""
+                  required
                   type="email"
-                       ss
-                />
-                <button class="click-btn btn btn-default">
+                  name="entry.1045781291"
+                >
+                  <span id="fthx" class="hid"></span>
+                <button id="fbutton" class="click-btn btn btn-default" type="submit" onclick="submitted=true" value="send">
                   <span>subscribe</span>
                 </button>
-                <div style="position: absolute; left: -5000px;">
+                <!--<div style="position: absolute; left: -5000px;">
                   <input
                     name="b_36c4fd991d266f23781ded980_aefe40901a"
                     tabindex="-1"
@@ -442,7 +440,7 @@ In today’s society, many political, economical and social figureheads display 
                   />
                 </div>
 
-                <div class="info"></div>
+                <div class="info"></div>-->
               </form>
             </div>
           </div>
@@ -475,8 +473,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/jquery.ajaxchimp.min.js"></script>
     <script src="js/mail-script.js"></script>
     <!--gmaps Js-->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
-    <script src="js/gmaps.min.js"></script>
+    <!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+    <script src="js/gmaps.min.js"></script>-->
     <script src="js/theme.js"></script>
   </body>
 </html>
